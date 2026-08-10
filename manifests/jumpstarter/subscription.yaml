@@ -1,0 +1,12 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: jumpstarter-operator
+  namespace: openshift-operators
+spec:
+  channel: alpha
+  installPlanApproval: Automatic
+  name: jumpstarter-operator
+  source: community-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: jumpstarter-operator.v0.9.0-rc.1

@@ -12,7 +12,7 @@ spec:
   revisionHistoryLimit: 3
   source:
     path: manifests/devspaces
-    repoURL:  "https://github.com/rhadp/cluster"
+    repoURL:  "https://github.com/rhadp/manifests"
     targetRevision: "main"
   destination:
     namespace: "auto-devspaces"
