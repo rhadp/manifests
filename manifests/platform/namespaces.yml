@@ -10,3 +10,29 @@ metadata:
 spec:
   finalizers:
     - kubernetes
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: auto-jumpstarter
+  labels:
+    argocd.argoproj.io/managed-by: openshift-gitops
+    argocd.argoproj.io/project: rhas
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
+spec:
+  finalizers:
+    - kubernetes
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: automotive-dev-operator-system
+  labels:
+    argocd.argoproj.io/managed-by: openshift-gitops
+    argocd.argoproj.io/project: rhas
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
+spec:
+  finalizers:
+    - kubernetes
