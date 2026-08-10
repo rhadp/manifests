@@ -1,0 +1,34 @@
+# secrets
+.env
+bin/.env-*
+inventory/secrets/
+
+# my local files
+hack/
+hack.md
+hack.yml
+hack.sh
+**hack**.yml
+cheatsheet.md
+hacking.md
+
+# agent foo
+.cursor/**
+
+# temporary local files
+tmp/
+venv/
+.cache/
+.DS_Store
+.vscode/
+.idea/
+.pytest_cache/
+.pytest_cache/v/
+.pytest_cache/v/cache/
+.pytest_cache/v/cache/lastfailed
+.pytest_cache/v/cache/nodeids
+.pytest_cache/v/cache/stepcache
+.pytest_cache/v/cache/stepcache
+
+# binaries
+bin/openshift-install-*
