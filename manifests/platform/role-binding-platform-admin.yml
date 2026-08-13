@@ -3,7 +3,7 @@ kind: ClusterRoleBinding
 metadata:
   name: platform-admin-access-role-platform-admins
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "1"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -18,7 +18,7 @@ kind: ClusterRoleBinding
 metadata:
   name: platform-access-role-platform-admins
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "1"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -33,7 +33,7 @@ kind: ClusterRoleBinding
 metadata:
   name: pipelines-admin-access-role-platform-admins
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "1"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -48,7 +48,7 @@ kind: ClusterRoleBinding
 metadata:
   name: pipelines-access-role-platform-admins
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "1"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole

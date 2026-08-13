@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/part-of: rhas-platform
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
+    argocd.argoproj.io/sync-wave: "0"
 rules:
   - apiGroups: [""]
     resources:
@@ -32,7 +32,7 @@ metadata:
   labels:
     app.kubernetes.io/part-of: rhas-platform
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
+    argocd.argoproj.io/sync-wave: "0"
 rules:
   - apiGroups: ["tekton.dev"]
     resources:

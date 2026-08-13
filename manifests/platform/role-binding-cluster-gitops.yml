@@ -4,7 +4,7 @@ metadata:
   name: openshift-operators-gitops-cluster-admin
   namespace: openshift-operators
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "1"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -20,7 +20,7 @@ metadata:
   name: openshift-machine-api-gitops-cluster-admin
   namespace: openshift-machine-api
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "1"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole

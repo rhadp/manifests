@@ -11,4 +11,4 @@ spec:
   name: jumpstarter-operator
   source: community-operators
   sourceNamespace: openshift-marketplace
-  startingCSV: jumpstarter-operator.v0.9.0-rc.1
+  startingCSV: jumpstarter-operator.v0.9.0-rc.2
