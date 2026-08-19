@@ -68,8 +68,8 @@ spec:
       - FailedScheduling
 
     defaultNamespace:
-      autoProvision: false
-    #  template: devspaces-<username>
+      autoProvision: true
+      template: devspaces-<username>
 
     user:
       #clusterRoles:
