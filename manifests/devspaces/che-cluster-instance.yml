@@ -26,7 +26,7 @@ spec:
     startTimeoutSeconds: 300
 
     secondsOfRunBeforeIdling: -1
-    secondsOfInactivityBeforeIdling: 1800
+    secondsOfInactivityBeforeIdling: 7200
 
     maxNumberOfWorkspacesPerUser: -1
     maxNumberOfRunningWorkspacesPerUser: 1
